@@ -45,3 +45,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+:root{
+    --font-stack: Roboto, Arial, sans-serif;
+    --dark-bg-color: #1F2937;
+    --button-color: #3882f6;
+    --quote-section: #E5E7EB;
+}
