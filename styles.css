@@ -147,8 +147,61 @@ button, .call-to-action {
 }
 
 .drink-desc img{
+     /*TO-DO: fix image, crop into square without distortion*/
     width: auto;
     height: 250px;
     border: 5px solid var(--button-color);
     border-radius: 25px;
 }
+
+.sectionThree{
+    background-color: var(--quote-section);
+    padding: 50px 300px;
+}
+
+ blockquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2927;
+    font-weight: 300;
+ }
+
+ figcaption{
+    font-weight: bold;
+    text-align: end;
+    padding: 10px 50px;
+ }
+
+ .sectionFour{
+    padding: 50px 300px;
+ }
+
+ .call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+ }
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-left p{
+    color: var(--quote-section);
+}
+
+.signup-but{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+ footer{
+    padding: 50px;
+    color: white;
+    text-align: center;
+ }
