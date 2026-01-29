@@ -52,3 +52,9 @@ table {
     --button-color: #3882f6;
     --quote-section: #E5E7EB;
 }
+
+img {
+    width: 500px;
+    height: auto;
+}
+
