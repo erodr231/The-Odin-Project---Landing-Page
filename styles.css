@@ -53,8 +53,72 @@ table {
     --quote-section: #E5E7EB;
 }
 
+body{
+    font-family: var(--font-stack);
+}
+
 img {
     width: 500px;
     height: auto;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero, header, footer{
+    background-color: var(--dark-bg-color);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.logo-link{ 
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links, .hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+.hero h2{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+}
+
+.left{
+    display: flex   ;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 5px 30px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+button, .call-to-action {
+    background-color: var(--button-color);
+}
