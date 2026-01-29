@@ -46,6 +46,8 @@ table {
     border-spacing: 0;
 }
 
+/* TO-DO: write cleaner css, make p have the same color, etc. personalize the css with boba theme*/
+
 :root{
     --font-stack: Roboto, Arial, sans-serif;
     --dark-bg-color: #1F2937;
