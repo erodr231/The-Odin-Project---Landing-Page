@@ -57,6 +57,8 @@ table {
 
 body{
     font-family: var(--font-stack);
+    background-color: #FAF6EF;
+    color: #2D1B14;
 }
 
 img {
@@ -70,7 +72,7 @@ a{
 }
 
 .hero, header, footer{
-    background-color: var(--dark-bg-color);
+    background-color: #6B3F2A;
 }
 
 header{
@@ -81,7 +83,7 @@ header{
 
 .logo-link{ 
     font-size: 24px;
-    color: #f9faf8;
+    color: #FAF6EF;
 }
 
 .header-links, .hero p{
@@ -96,7 +98,7 @@ header{
 
 .hero h2{
     font-size: 48px;
-    color: #f9faf8;
+    color: #FAF6EF;
     font-weight: 900;
 }
 
@@ -107,14 +109,16 @@ header{
 }
 
 .left{ /* TO-D0: fix text wrapping*/
-    display: flex   ;
+    display: flex;
+    overflow-wrap: break-word;
+    width: 500px;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 button{ 
-    padding: 5px 30px;
+    padding:10px 30px;
     color: white;
     border: none;
     border-radius: 7px;
@@ -122,14 +126,14 @@ button{
 }
 
 button, .call-to-action {
-    background-color: var(--button-color);
+    background-color: #ea7e98;
 }
 .sectionTwo{
     padding: 20px;
 }
 .sectionTwo h2{
     font-size: 36px;
-    color: #1f2937;
+    color: #2D1B14;
     font-weight: 900;
     text-align: center;
     margin-bottom: 20px;
@@ -149,22 +153,22 @@ button, .call-to-action {
 }
 
 .drink-desc img{
-     /*TO-DO: fix image, crop into square without distortion*/
-    width: auto;
-    height: 250px;
-    border: 5px solid var(--button-color);
+    width: 150px;
+    height: 150px;
+    border: 5px solid #A66A3F;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .sectionThree{
-    background-color: var(--quote-section);
+    background-color: #cddccb;
     padding: 50px 300px;
 }
 
  blockquote{
     font-size: 36px;
     font-style: italic;
-    color: #1f2927;
+    color: #2D1B14;
     font-weight: 300;
  }
 
