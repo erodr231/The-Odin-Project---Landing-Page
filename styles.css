@@ -50,9 +50,6 @@ table {
 
 :root{
     --font-stack: Roboto, Arial, sans-serif;
-    --dark-bg-color: #1F2937;
-    --button-color: #3882f6;
-    --quote-section: #E5E7EB;
 }
 
 body{
@@ -88,7 +85,7 @@ header{
 
 .header-links, .hero p{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #ffffff;
 }
 
 .header-links{
@@ -108,7 +105,7 @@ header{
     padding: 50px 200px;
 }
 
-.left{ /* TO-D0: fix text wrapping*/
+.left{ 
     display: flex;
     overflow-wrap: break-word;
     width: 500px;
